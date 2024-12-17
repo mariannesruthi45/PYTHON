@@ -1,0 +1,22 @@
+# Program to check if a number is even, odd, or prime
+def is_prime(num):
+    if num <= 1:
+        return False
+    for i in range(2, int(num**0.5) + 1):
+        if num % i == 0:
+            return False
+    return True
+
+# Taking input
+number = int(input("Enter a number: "))
+
+# Checking conditions
+if number % 2 == 0:
+    print(f"{number} is an EVEN number.")
+else:
+    print(f"{number} is an ODD number.")
+
+if is_prime(number):
+    print(f"{number} is also a PRIME number.")
+else:
+    print(f"{number} is NOT a prime number.")

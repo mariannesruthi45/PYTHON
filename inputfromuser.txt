@@ -1,0 +1,23 @@
+# Program to take input from the user and perform arithmetic operations
+# Taking user input
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+# Performing basic arithmetic operations
+sum_result = num1 + num2
+difference = num1 - num2
+product = num1 * num2
+quotient = num1 / num2
+
+# Displaying results
+print("\n Results")
+print(f"Hello, {name}! You are {age} years old.")
+print(f"Sum: {num1} + {num2} = {sum_result}")
+print(f"Difference: {num1} - {num2} = {difference}")
+print(f"Product: {num1} * {num2} = {product}")
+print(f"Quotient: {num1} / {num2} = {quotient:.2f}")
+
+
+

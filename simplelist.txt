@@ -1,0 +1,22 @@
+# Program to perform basic list operations
+
+# Initializing a list
+fruits = ["apple", "banana", "cherry"]
+
+print("Original List:", fruits)
+
+# Adding an element to the list
+fruits.append("orange")
+print("After Adding 'orange':", fruits)
+
+# Removing an element from the list
+fruits.remove("banana")
+print("After Removing 'banana':", fruits)
+
+# Sorting the list
+fruits.sort()
+print("After Sorting:", fruits)
+
+# Reversing the list
+fruits.reverse()
+print("After Reversing:", fruits)

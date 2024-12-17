@@ -1,0 +1,17 @@
+# Program to demonstrate file handling in Python
+
+file_name = "example.txt"
+
+# Writing to a file
+with open(file_name, "w") as file:
+    file.write("Hello, this is a sample text file!\n")
+    file.write("File handling in Python is simple and fun.\n")
+
+print(f"Content written to {file_name}.")
+
+# Reading from a file
+with open(file_name, "r") as file:
+    content = file.read()
+
+print("\n--- Content of the File ---")
+print(content)
